@@ -17,7 +17,7 @@ Play = True
 
 while Play:
     Round += 1
-    print("\nRound", Round)
+    print("\nRound", Round) 
 
     # Random Attacks
     Player1_attack = randint(1, 20)
@@ -40,7 +40,7 @@ while Play:
 
     if Hp1 <= 0:
         print(f"{Player2_name} Wins!")
+        Play = False 
     elif Hp2 <= 0:
         print(f"{Player1_name} Wins!")
-    Play = False
-
+        Play = False
